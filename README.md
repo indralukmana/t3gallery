@@ -2,12 +2,14 @@
 
 ## TODO
 
-- [ ] Deploy
+- [x] Deploy
 - [x] Basic UI mock
 - [x] Setup database
 - [x] Attach database to UI
-- [ ] Add auth (clerk)
+- [x] Add auth (clerk)
 - [ ] Add image upload
+- [ ] Taint?
+- [ ] Use Next/Image component
 - [ ] Error management (sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (server actions)
