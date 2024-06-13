@@ -3,7 +3,7 @@
 ## TODO
 
 - [ ] Deploy
-- [ ] Basic UI mock
+- [x] Basic UI mock
 - [ ] Setup database
 - [ ] Attach database to UI
 - [ ] Add auth (clerk)
