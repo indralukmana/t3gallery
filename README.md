@@ -4,8 +4,8 @@
 
 - [ ] Deploy
 - [x] Basic UI mock
-- [ ] Setup database
-- [ ] Attach database to UI
+- [x] Setup database
+- [x] Attach database to UI
 - [ ] Add auth (clerk)
 - [ ] Add image upload
 - [ ] Error management (sentry)
