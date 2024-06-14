@@ -7,9 +7,9 @@
 - [x] Setup database
 - [x] Attach database to UI
 - [x] Add auth (clerk)
-- [ ] Add image upload
-- [ ] Taint?
-- [ ] Use Next/Image component
+- [x] Add image upload
+- [x] Taint?
+- [x] Use Next/Image component
 - [ ] Error management (sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (server actions)
