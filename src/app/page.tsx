@@ -1,5 +1,6 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import Image from "next/image";
+import Link from "next/link";
 import { getMyImages } from "~/server/db/queries";
 
 export const dynamic = "force-dynamic";
@@ -10,14 +11,14 @@ async function GalleryImages() {
     <div className="flex flex-wrap gap-4">
       {images.map((image) => {
         return (
-          <div key={image.id} className="w-48">
+          <Link key={image.id} href={`/image/${image.id}`} className="w-48">
             <Image
               src={image.url}
               alt={image.name ?? "image"}
               width={200}
               height={200}
             />
-          </div>
+          </Link>
         );
       })}
     </div>
