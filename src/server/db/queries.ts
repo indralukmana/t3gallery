@@ -25,7 +25,7 @@ export const getImageById = async (imageId: string) => {
   }
 
   const image = await db.query.images.findFirst({
-    where: (model, { eq }) => eq(model.id, imageId),
+    where: (model, { eq }) => eq(model.id, Number(imageId)),
   });
 
   if (!image) {
